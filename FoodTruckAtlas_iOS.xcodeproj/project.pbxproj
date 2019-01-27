@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB11274A1D3FA86F81BD8C56 /* Pods_FoodTruckAtlas_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB27E751577102D72346AE63 /* Pods_FoodTruckAtlas_iOS.framework */; };
+		ABD95D4421FE390900E1757E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD95D4321FE390900E1757E /* AppDelegate.swift */; };
+		ABD95D4621FE390900E1757E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD95D4521FE390900E1757E /* ViewController.swift */; };
+		ABD95D4921FE390900E1757E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD95D4721FE390900E1757E /* Main.storyboard */; };
+		ABD95D4B21FE390C00E1757E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD95D4A21FE390C00E1757E /* Assets.xcassets */; };
+		ABD95D4E21FE390C00E1757E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD95D4C21FE390C00E1757E /* LaunchScreen.storyboard */; };
+		ABD95D5921FE390C00E1757E /* FoodTruckAtlas_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD95D5821FE390C00E1757E /* FoodTruckAtlas_iOSTests.swift */; };
+		ABD95D6421FE390C00E1757E /* FoodTruckAtlas_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD95D6321FE390C00E1757E /* FoodTruckAtlas_iOSUITests.swift */; };
+		C3C0C1306A41B430C0559291 /* Pods_FoodTruckAtlas_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A852B1D58065923EC63878 /* Pods_FoodTruckAtlas_iOSUITests.framework */; };
+		EAAAE2BEC26D4AF6B80C12FB /* Pods_FoodTruckAtlas_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EFF91428E3D6B8745D8E07 /* Pods_FoodTruckAtlas_iOSTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABD95D5521FE390C00E1757E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABD95D3821FE390900E1757E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABD95D3F21FE390900E1757E;
+			remoteInfo = FoodTruckAtlas_iOS;
+		};
+		ABD95D6021FE390C00E1757E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABD95D3821FE390900E1757E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABD95D3F21FE390900E1757E;
+			remoteInfo = FoodTruckAtlas_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AA9917200F484B68B6D00B5 /* Pods-FoodTruckAtlas_iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTruckAtlas_iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTruckAtlas_iOSUITests/Pods-FoodTruckAtlas_iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52F997105C3091CB44801310 /* Pods-FoodTruckAtlas_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTruckAtlas_iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTruckAtlas_iOSTests/Pods-FoodTruckAtlas_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E1395158459DC20A790370D /* Pods-FoodTruckAtlas_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTruckAtlas_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTruckAtlas_iOS/Pods-FoodTruckAtlas_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		77E1B5227F7CEE88A39DAD64 /* Pods-FoodTruckAtlas_iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTruckAtlas_iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTruckAtlas_iOSUITests/Pods-FoodTruckAtlas_iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		793FD77F556EFC56993AABC6 /* Pods-FoodTruckAtlas_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTruckAtlas_iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTruckAtlas_iOSTests/Pods-FoodTruckAtlas_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8EFF91428E3D6B8745D8E07 /* Pods_FoodTruckAtlas_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTruckAtlas_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB27E751577102D72346AE63 /* Pods_FoodTruckAtlas_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTruckAtlas_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD95D4021FE390900E1757E /* FoodTruckAtlas_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTruckAtlas_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD95D4321FE390900E1757E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABD95D4521FE390900E1757E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABD95D4821FE390900E1757E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABD95D4A21FE390C00E1757E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABD95D4D21FE390C00E1757E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABD95D4F21FE390C00E1757E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD95D5421FE390C00E1757E /* FoodTruckAtlas_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTruckAtlas_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD95D5821FE390C00E1757E /* FoodTruckAtlas_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckAtlas_iOSTests.swift; sourceTree = "<group>"; };
+		ABD95D5A21FE390C00E1757E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD95D5F21FE390C00E1757E /* FoodTruckAtlas_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTruckAtlas_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD95D6321FE390C00E1757E /* FoodTruckAtlas_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckAtlas_iOSUITests.swift; sourceTree = "<group>"; };
+		ABD95D6521FE390C00E1757E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4190CBA83DF62C7794E917B /* Pods-FoodTruckAtlas_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTruckAtlas_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTruckAtlas_iOS/Pods-FoodTruckAtlas_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		B5A852B1D58065923EC63878 /* Pods_FoodTruckAtlas_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTruckAtlas_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABD95D3D21FE390900E1757E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB11274A1D3FA86F81BD8C56 /* Pods_FoodTruckAtlas_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD95D5121FE390C00E1757E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAAE2BEC26D4AF6B80C12FB /* Pods_FoodTruckAtlas_iOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD95D5C21FE390C00E1757E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C0C1306A41B430C0559291 /* Pods_FoodTruckAtlas_iOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6720836FE117CF866723F317 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E1395158459DC20A790370D /* Pods-FoodTruckAtlas_iOS.debug.xcconfig */,
+				B4190CBA83DF62C7794E917B /* Pods-FoodTruckAtlas_iOS.release.xcconfig */,
+				793FD77F556EFC56993AABC6 /* Pods-FoodTruckAtlas_iOSTests.debug.xcconfig */,
+				52F997105C3091CB44801310 /* Pods-FoodTruckAtlas_iOSTests.release.xcconfig */,
+				4AA9917200F484B68B6D00B5 /* Pods-FoodTruckAtlas_iOSUITests.debug.xcconfig */,
+				77E1B5227F7CEE88A39DAD64 /* Pods-FoodTruckAtlas_iOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ABD95D3721FE390900E1757E = {
+			isa = PBXGroup;
+			children = (
+				ABD95D4221FE390900E1757E /* FoodTruckAtlas_iOS */,
+				ABD95D5721FE390C00E1757E /* FoodTruckAtlas_iOSTests */,
+				ABD95D6221FE390C00E1757E /* FoodTruckAtlas_iOSUITests */,
+				ABD95D4121FE390900E1757E /* Products */,
+				6720836FE117CF866723F317 /* Pods */,
+				EC19C1591192B9578CB90627 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABD95D4121FE390900E1757E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABD95D4021FE390900E1757E /* FoodTruckAtlas_iOS.app */,
+				ABD95D5421FE390C00E1757E /* FoodTruckAtlas_iOSTests.xctest */,
+				ABD95D5F21FE390C00E1757E /* FoodTruckAtlas_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABD95D4221FE390900E1757E /* FoodTruckAtlas_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ABD95D4321FE390900E1757E /* AppDelegate.swift */,
+				ABD95D4521FE390900E1757E /* ViewController.swift */,
+				ABD95D4721FE390900E1757E /* Main.storyboard */,
+				ABD95D4A21FE390C00E1757E /* Assets.xcassets */,
+				ABD95D4C21FE390C00E1757E /* LaunchScreen.storyboard */,
+				ABD95D4F21FE390C00E1757E /* Info.plist */,
+			);
+			path = FoodTruckAtlas_iOS;
+			sourceTree = "<group>";
+		};
+		ABD95D5721FE390C00E1757E /* FoodTruckAtlas_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABD95D5821FE390C00E1757E /* FoodTruckAtlas_iOSTests.swift */,
+				ABD95D5A21FE390C00E1757E /* Info.plist */,
+			);
+			path = FoodTruckAtlas_iOSTests;
+			sourceTree = "<group>";
+		};
+		ABD95D6221FE390C00E1757E /* FoodTruckAtlas_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABD95D6321FE390C00E1757E /* FoodTruckAtlas_iOSUITests.swift */,
+				ABD95D6521FE390C00E1757E /* Info.plist */,
+			);
+			path = FoodTruckAtlas_iOSUITests;
+			sourceTree = "<group>";
+		};
+		EC19C1591192B9578CB90627 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB27E751577102D72346AE63 /* Pods_FoodTruckAtlas_iOS.framework */,
+				A8EFF91428E3D6B8745D8E07 /* Pods_FoodTruckAtlas_iOSTests.framework */,
+				B5A852B1D58065923EC63878 /* Pods_FoodTruckAtlas_iOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABD95D3F21FE390900E1757E /* FoodTruckAtlas_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD95D6821FE390C00E1757E /* Build configuration list for PBXNativeTarget "FoodTruckAtlas_iOS" */;
+			buildPhases = (
+				6295DE0403AE93895C1386A7 /* [CP] Check Pods Manifest.lock */,
+				ABD95D3C21FE390900E1757E /* Sources */,
+				ABD95D3D21FE390900E1757E /* Frameworks */,
+				ABD95D3E21FE390900E1757E /* Resources */,
+				3F51CF1AD34E061882E7CEB0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodTruckAtlas_iOS;
+			productName = FoodTruckAtlas_iOS;
+			productReference = ABD95D4021FE390900E1757E /* FoodTruckAtlas_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABD95D5321FE390C00E1757E /* FoodTruckAtlas_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD95D6B21FE390C00E1757E /* Build configuration list for PBXNativeTarget "FoodTruckAtlas_iOSTests" */;
+			buildPhases = (
+				BA85A3BD4FBE8F9EACA57205 /* [CP] Check Pods Manifest.lock */,
+				ABD95D5021FE390C00E1757E /* Sources */,
+				ABD95D5121FE390C00E1757E /* Frameworks */,
+				ABD95D5221FE390C00E1757E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD95D5621FE390C00E1757E /* PBXTargetDependency */,
+			);
+			name = FoodTruckAtlas_iOSTests;
+			productName = FoodTruckAtlas_iOSTests;
+			productReference = ABD95D5421FE390C00E1757E /* FoodTruckAtlas_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABD95D5E21FE390C00E1757E /* FoodTruckAtlas_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD95D6E21FE390C00E1757E /* Build configuration list for PBXNativeTarget "FoodTruckAtlas_iOSUITests" */;
+			buildPhases = (
+				A375C6A2A264F9AFB487562F /* [CP] Check Pods Manifest.lock */,
+				ABD95D5B21FE390C00E1757E /* Sources */,
+				ABD95D5C21FE390C00E1757E /* Frameworks */,
+				ABD95D5D21FE390C00E1757E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD95D6121FE390C00E1757E /* PBXTargetDependency */,
+			);
+			name = FoodTruckAtlas_iOSUITests;
+			productName = FoodTruckAtlas_iOSUITests;
+			productReference = ABD95D5F21FE390C00E1757E /* FoodTruckAtlas_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABD95D3821FE390900E1757E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Samuel Grosenick";
+				TargetAttributes = {
+					ABD95D3F21FE390900E1757E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					ABD95D5321FE390C00E1757E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ABD95D3F21FE390900E1757E;
+					};
+					ABD95D5E21FE390C00E1757E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ABD95D3F21FE390900E1757E;
+					};
+				};
+			};
+			buildConfigurationList = ABD95D3B21FE390900E1757E /* Build configuration list for PBXProject "FoodTruckAtlas_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABD95D3721FE390900E1757E;
+			productRefGroup = ABD95D4121FE390900E1757E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABD95D3F21FE390900E1757E /* FoodTruckAtlas_iOS */,
+				ABD95D5321FE390C00E1757E /* FoodTruckAtlas_iOSTests */,
+				ABD95D5E21FE390C00E1757E /* FoodTruckAtlas_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABD95D3E21FE390900E1757E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD95D4E21FE390C00E1757E /* LaunchScreen.storyboard in Resources */,
+				ABD95D4B21FE390C00E1757E /* Assets.xcassets in Resources */,
+				ABD95D4921FE390900E1757E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD95D5221FE390C00E1757E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD95D5D21FE390C00E1757E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F51CF1AD34E061882E7CEB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FoodTruckAtlas_iOS/Pods-FoodTruckAtlas_iOS-frameworks.sh",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodTruckAtlas_iOS/Pods-FoodTruckAtlas_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6295DE0403AE93895C1386A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodTruckAtlas_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A375C6A2A264F9AFB487562F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodTruckAtlas_iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA85A3BD4FBE8F9EACA57205 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodTruckAtlas_iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABD95D3C21FE390900E1757E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD95D4621FE390900E1757E /* ViewController.swift in Sources */,
+				ABD95D4421FE390900E1757E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD95D5021FE390C00E1757E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD95D5921FE390C00E1757E /* FoodTruckAtlas_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD95D5B21FE390C00E1757E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD95D6421FE390C00E1757E /* FoodTruckAtlas_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABD95D5621FE390C00E1757E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABD95D3F21FE390900E1757E /* FoodTruckAtlas_iOS */;
+			targetProxy = ABD95D5521FE390C00E1757E /* PBXContainerItemProxy */;
+		};
+		ABD95D6121FE390C00E1757E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABD95D3F21FE390900E1757E /* FoodTruckAtlas_iOS */;
+			targetProxy = ABD95D6021FE390C00E1757E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABD95D4721FE390900E1757E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD95D4821FE390900E1757E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABD95D4C21FE390C00E1757E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD95D4D21FE390C00E1757E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABD95D6621FE390C00E1757E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABD95D6721FE390C00E1757E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABD95D6921FE390C00E1757E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E1395158459DC20A790370D /* Pods-FoodTruckAtlas_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodTruckAtlas_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FoodTruckAtlas-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABD95D6A21FE390C00E1757E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4190CBA83DF62C7794E917B /* Pods-FoodTruckAtlas_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodTruckAtlas_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FoodTruckAtlas-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABD95D6C21FE390C00E1757E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 793FD77F556EFC56993AABC6 /* Pods-FoodTruckAtlas_iOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodTruckAtlas_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FoodTruckAtlas-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTruckAtlas_iOS.app/FoodTruckAtlas_iOS";
+			};
+			name = Debug;
+		};
+		ABD95D6D21FE390C00E1757E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F997105C3091CB44801310 /* Pods-FoodTruckAtlas_iOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodTruckAtlas_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FoodTruckAtlas-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTruckAtlas_iOS.app/FoodTruckAtlas_iOS";
+			};
+			name = Release;
+		};
+		ABD95D6F21FE390C00E1757E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA9917200F484B68B6D00B5 /* Pods-FoodTruckAtlas_iOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodTruckAtlas_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FoodTruckAtlas-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodTruckAtlas_iOS;
+			};
+			name = Debug;
+		};
+		ABD95D7021FE390C00E1757E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E1B5227F7CEE88A39DAD64 /* Pods-FoodTruckAtlas_iOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodTruckAtlas_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FoodTruckAtlas-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodTruckAtlas_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABD95D3B21FE390900E1757E /* Build configuration list for PBXProject "FoodTruckAtlas_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD95D6621FE390C00E1757E /* Debug */,
+				ABD95D6721FE390C00E1757E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD95D6821FE390C00E1757E /* Build configuration list for PBXNativeTarget "FoodTruckAtlas_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD95D6921FE390C00E1757E /* Debug */,
+				ABD95D6A21FE390C00E1757E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD95D6B21FE390C00E1757E /* Build configuration list for PBXNativeTarget "FoodTruckAtlas_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD95D6C21FE390C00E1757E /* Debug */,
+				ABD95D6D21FE390C00E1757E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD95D6E21FE390C00E1757E /* Build configuration list for PBXNativeTarget "FoodTruckAtlas_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD95D6F21FE390C00E1757E /* Debug */,
+				ABD95D7021FE390C00E1757E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABD95D3821FE390900E1757E /* Project object */;
+}

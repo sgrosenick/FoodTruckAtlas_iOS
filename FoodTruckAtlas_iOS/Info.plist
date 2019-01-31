@@ -41,5 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>MGLMapboxAccessToken</key>
+	<string>pk.eyJ1Ijoic2dyb3NlbmljayIsImEiOiJjaWZ1bDFtZW0yMzZ2djBtMGR3dDR4Z2ZhIn0.7rppXXzXGN9OiQ7WhNA9vw</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Shows your location on the map and helps improve OpenStreetMap.</string>
 </dict>
 </plist>
